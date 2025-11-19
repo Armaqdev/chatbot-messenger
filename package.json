@@ -1,0 +1,32 @@
+{
+  "_comment_1": "========================================",
+  "_comment_2": "CONFIGURACIÓN DEL PROYECTO CHATBOT",
+  "_comment_3": "========================================",
+  
+  "name": "messenger-gemini-chatbot",
+  "version": "1.0.0",
+  "description": "Facebook Messenger chatbot powered by Google Gemini",
+  "type": "module",
+  
+  "_comment_scripts": "SCRIPTS DISPONIBLES:",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "_comment_deps": "DEPENDENCIAS PRINCIPALES:",
+  "dependencies": {
+    "@google/genai": "^0.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mime": "^4.0.4",
+    "node-fetch": "^3.3.2"
+  },
+  
+  "_comment_devdeps": "DEPENDENCIAS DE DESARROLLO:",
+  "devDependencies": {
+    "@types/node": "^22.8.5",
+    "nodemon": "^3.1.7"
+  }
+}
